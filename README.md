@@ -1,6 +1,7 @@
 # node_learn
 Node.js 的单线程 非阻塞I/O 事件驱动
-
+node适合处理数据密集型服务，不适合做cpu密集型服务，但是因为node单线程，无法利用多核多cpu，
+所以那种计算量很大的任务他不擅长。node处理复杂计算会一直占着线程
 
 
 ## 非阻塞I/O（input/output）
