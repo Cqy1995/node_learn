@@ -42,7 +42,7 @@ EventEmitter.on('getmine',function(mimedata){
 })
 ```
 
-## 时间循环机制
+## 事件循环机制
 
 ```
    ┌───────────────────────────┐
